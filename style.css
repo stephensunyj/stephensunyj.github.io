@@ -53,10 +53,10 @@
 		color: #000;
 	}
 	.banner{
-		background: url(images/bg.jpg) no-repeat center !important;
+		background: url(images/home_bg.jpg) no-repeat center !important;
 		background-size: cover !important;
 	}
-	.services h2:after{
+	.projects h2:after{
 		background: #000!important;
 	}
 	.service_items{

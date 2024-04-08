@@ -75,6 +75,16 @@
 	}
 
 
+	.imageblock {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.imageblock img {
+		max-width: 75%; /* Adjust as needed */
+		max-height: 75%; /* Adjust as needed */
+	}
 
 	.contactform.style1{}
 	.contactform.style1 form{}
