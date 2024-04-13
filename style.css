@@ -71,7 +71,32 @@
 		background: #000!important;
 	}
 
-
+	#typewriter {
+		margin:0 0.5rem;
+		border-right:0.3rem solid turquoise;
+		background:#283538;
+		color:white;
+		-webkit-animation:cursor_blink 1s step-end infinite;
+		animation:cursor_blink 1s step-end infinite
+	  }
+	  @-webkit-keyframes cursor_blink {
+		from,
+		to {
+		  border-color:transparent
+		}
+		50% {
+		  border-color:white
+		}
+	  }
+	  @keyframes cursor_blink {
+		from,
+		to {
+		  border-color:transparent
+		}
+		50% {
+		  border-color:white
+		}
+	  }
 
 
 	.copyright a{
