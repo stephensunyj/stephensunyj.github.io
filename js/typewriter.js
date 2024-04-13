@@ -1,8 +1,8 @@
 // Typewriter
 var char_idx = 0;
 var is_deleting = false;
-var words = ["Engineer.", "Developer.", "Hacker.", "Hiker.","Pilot."]; 
-var colors = ["#f71e0a", "#f0ec0a", "#9d1cff","#05e317", "#3ea2fa"];
+var words = ["Engineer.", "Developer.", "Hacker.", "Runner.", "Hiker.", "Pilot."]; 
+var colors = ["#f71e0a", "#f0ec0a", "#9d1cff", "#f57c18", "#05e317", "#3ea2fa"];
 var word_idx = 0;
 
 function type_writer() {
