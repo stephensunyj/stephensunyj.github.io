@@ -13,7 +13,7 @@ function type_writer() {
   typewriterElement.style.textDecorationThickness = "4px";
   typewriterElement.style.textDecorationColor = colors[word_idx]; 
   //document.getElementById("typewriter").style.color = colors[word_idx];
-  var speed = 150; // speed in milliseconds
+  var speed = 125; // speed in milliseconds
 
   if (is_deleting){
     speed /= 2;

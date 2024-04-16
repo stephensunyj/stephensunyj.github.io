@@ -56,6 +56,11 @@
 		background: url(images/home_bg.jpg) no-repeat center !important;
 		background-size: cover !important;
 	}
+
+	.text a:hover i {
+		color: #3ea2fa; 
+	}
+
 	.projects h2:after{
 		background: #000!important;
 	}
@@ -123,6 +128,9 @@
 		font-size: 21px;
 		margin-right: 13px;
 	}
+	.social a:hover {
+		color: #3ea2fa;
+	}
 	.social a:last-of-type{
 		margin-right: 0;
 	}
@@ -137,4 +145,10 @@
 	}
 	.footerlinks a:last-of-type{
 		margin-right: 0;
+	}
+	.backtotop a{
+		color: #000;
+	}
+	.backtotop a:hover{
+		color: #3ea2fa; 
 	}
