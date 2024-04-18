@@ -152,3 +152,6 @@
 	.backtotop a:hover{
 		color: #3ea2fa; 
 	}
+	p a:hover {
+		color: red;
+	}
