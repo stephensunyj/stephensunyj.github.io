@@ -123,7 +123,7 @@
 	}
 	.social{}
 	.social a{
-		float: left;
+		float: center;
 		color: #000;
 		font-size: 21px;
 		margin-right: 13px;
